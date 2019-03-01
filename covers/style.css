@@ -1,0 +1,50 @@
+html {
+  font-family: sans-serif;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+/* reset  */
+html, body, div, article, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cover {
+  width: 350px;
+  float: left;
+  margin: 1em;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cover article {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 355px;
+  font-size: 0.85em;
+  padding: 1em;
+  margin-top: 0;
+  transition: margin-top .8s;
+}
+.cover:hover article {
+  margin-top: -355px;
+}
+.cover article h3, .cover article h4{
+  padding: .3em;
+}
